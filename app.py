@@ -11,7 +11,7 @@ Geoip2Stack(
     app, 'Geoip2StackUSE1',
     env = cdk.Environment(
         account = os.getenv('CDK_DEFAULT_ACCOUNT'),
-        region = 'us-west-1'
+        region = 'us-east-1'
     ),
     synthesizer = cdk.DefaultStackSynthesizer(
         qualifier = '4n6ir'
