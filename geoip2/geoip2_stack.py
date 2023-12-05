@@ -44,7 +44,7 @@ class Geoip2Stack(Stack):
                 _lambda.Runtime.PYTHON_3_10,
                 _lambda.Runtime.PYTHON_3_11
             ],
-            description = 'GeoIP2-python 4.7.0 (https://github.com/maxmind/GeoIP2-python))',
+            description = 'GeoIP2-python 4.8.0 (https://github.com/maxmind/GeoIP2-python))',
             layer_version_name = 'geoip2',
             license = 'Apache-2.0 License',
             removal_policy = RemovalPolicy.DESTROY
