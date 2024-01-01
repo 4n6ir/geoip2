@@ -42,7 +42,8 @@ class Geoip2Stack(Stack):
                 _lambda.Runtime.PYTHON_3_8,
                 _lambda.Runtime.PYTHON_3_9,
                 _lambda.Runtime.PYTHON_3_10,
-                _lambda.Runtime.PYTHON_3_11
+                _lambda.Runtime.PYTHON_3_11,
+                _lambda.Runtime.PYTHON_3_12
             ],
             description = 'GeoIP2-python 4.8.0 (https://github.com/maxmind/GeoIP2-python))',
             layer_version_name = 'geoip2',

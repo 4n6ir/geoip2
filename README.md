@@ -7,7 +7,7 @@
 
         geoip2 = _lambda.LayerVersion.from_layer_version_arn(
             self, 'geoip2',
-            layer_version_arn = 'arn:aws:lambda:'+region+':070176467818:layer:geoip2:2'
+            layer_version_arn = 'arn:aws:lambda:'+region+':070176467818:layer:geoip2:3'
         )
 ```
 
